@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: mike/nginx
+        image: docker-registry.p-c8sw9-pipeline/mike/nginx
         ports:
         - containerPort: 80
