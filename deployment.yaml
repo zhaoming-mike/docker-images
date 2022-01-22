@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: zhaoming23/nginx:${CICD_EXECUTION_SEQUENCE}
+        image: 52.130.191.169:31000/zhaoming23/nginx:${CICD_EXECUTION_SEQUENCE}
         ports:
         - containerPort: 80
