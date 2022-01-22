@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: ${CICD_LOCAL_REGISTRY}/mike/nginx/${CICD_GIT_BRANCH}:${CICD_EXECUTION_SEQUENCE}
+      tag: mike/nginx/${CICD_GIT_BRANCH}:${CICD_EXECUTION_SEQUENCE}
 - name: 运行
   steps:
   - applyYamlConfig:
