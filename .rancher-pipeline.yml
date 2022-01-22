@@ -6,7 +6,7 @@ stages:
       buildContext: .
       tag: zhaoming23/nginx:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
-      registry: 52.130.191.169:31000
+      registry: index.docker.io
     env:
       PLUGIN_INSECURE: "true"
 - name: 运行
