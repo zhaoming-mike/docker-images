@@ -6,7 +6,7 @@ stages:
       buildContext: .
       tag: zhaoming23/nginx:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
-      registry: "52.130.190.135:5000"
+      registry: "52.130.190.135"
     env:
       PLUGIN_INSECURE: "true"
 - name: 运行
