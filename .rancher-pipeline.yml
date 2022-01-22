@@ -6,7 +6,9 @@ stages:
       buildContext: .
       tag: zhaoming23/nginx:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
-      registry: index.docker.io/v1
+      registry: bbb.chinaeast2.cloudapp.chinacloudapi.cn
+    env:
+      PLUGIN_INSECURE: "true"
 - name: 运行
   steps:
   - applyYamlConfig:
