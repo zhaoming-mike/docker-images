@@ -20,3 +20,4 @@ spec:
         image: 52.130.190.135/zhaoming23/nginx:${CICD_EXECUTION_SEQUENCE}
         ports:
         - containerPort: 80
+        - containerPort: 443
